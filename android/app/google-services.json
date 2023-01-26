@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "993175523207",
+    "project_id": "flutter-chat-learning-82a35",
+    "storage_bucket": "flutter-chat-learning-82a35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993175523207:android:7f052156ce77fe21a34d22",
+        "android_client_info": {
+          "package_name": "com.example.flutterchatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993175523207-o38691kka1lvrtsgr4usvvilapc0fpk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPWs_NCQkoEW98afofp92ZFdNhUQuKeKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993175523207-o38691kka1lvrtsgr4usvvilapc0fpk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
