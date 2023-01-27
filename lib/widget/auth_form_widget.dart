@@ -131,14 +131,20 @@ class _AuthFormState extends State<AuthForm> {
                   if (widget.isLoading) CircularProgressIndicator(),
                   if (!widget.isLoading)
                     ElevatedButton(
+                      style: ButtonStyle().copyWith(
+                          backgroundColor:
+                              MaterialStateProperty.all(Colors.black)),
                       child: Text(_isLogin ? 'Login' : 'Signup'),
                       onPressed: _trySubmit,
                     ),
                   if (!widget.isLoading)
                     TextButton(
-                      child: Text(_isLogin
-                          ? 'Create new account'
-                          : 'I already have an account'),
+                      child: Text(
+                        _isLogin
+                            ? 'Create new account'
+                            : 'I already have an account',
+                        style: Theme.of(context).textTheme.bodySmall,
+                      ),
                       onPressed: () {
                         setState(() {
                           _isLogin = !_isLogin;

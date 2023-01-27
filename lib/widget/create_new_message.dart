@@ -41,7 +41,8 @@ class _NewMessageState extends State<NewMessage> {
               textCapitalization: TextCapitalization.sentences,
               autocorrect: true,
               enableSuggestions: true,
-              decoration: InputDecoration(labelText: 'Send a message...'),
+              decoration: InputDecoration(
+                  labelText: 'Send a message...', border: InputBorder.none),
               onChanged: (value) {
                 setState(() {
                   _enteredMessage = value;

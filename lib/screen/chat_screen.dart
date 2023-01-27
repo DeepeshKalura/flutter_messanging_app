@@ -31,20 +31,24 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('FlutterChat'),
+        //centerTitle: true,
+        title: Text('UniversalChat'),
         actions: [
           DropdownButton(
             underline: Container(),
             icon: Icon(
               Icons.more_vert,
-              color: Theme.of(context).primaryIconTheme.color,
+              color: Theme.of(context).textTheme.bodySmall!.color,
             ),
             items: [
               DropdownMenuItem(
                 child: Container(
                   child: Row(
                     children: <Widget>[
-                      Icon(Icons.exit_to_app),
+                      Icon(
+                        Icons.exit_to_app_sharp,
+                        color: Theme.of(context).iconTheme.color,
+                      ),
                       SizedBox(width: 8),
                       Text('Logout'),
                     ],
