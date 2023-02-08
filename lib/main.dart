@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
             title: 'FlutterChat',
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
+              useMaterial3: false,
               canvasColor: Color.fromRGBO(155, 253, 180, 1),
               primaryColor: Color.fromRGBO(2, 141, 64, 1),
               cardColor: Color.fromRGBO(165, 158, 169, 0.9),

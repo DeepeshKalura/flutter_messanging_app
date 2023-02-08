@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutterchatbox">
    <application
-        android:label="flutterchatbox"
+        android:label="Universal Chat"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
