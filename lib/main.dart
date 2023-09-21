@@ -13,6 +13,7 @@ import './screen/chat_screen.dart';
 import 'screen/auth_screen.dart';
 import 'screen/splash_screen.dart';
 
+late Size globalAppSize;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
