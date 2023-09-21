@@ -1,16 +1,48 @@
-# flutterchatbox
+# Flutter Messanging Application
+<!-- Name of the application will change soon -->
+name: Flutter Chat 
 
-A new Flutter project.
+## Description
+This is a simple chat application built using flutter and firebase. This application is still under development.
+
+### Features
+<!-- Lol i wanted to use all the firebase feature in this application which comes in free tier -->
+- [x] Google Sign In
+- [x] Firebase Authentication
+- [x] Firebase Cloud Firestore
+- [x] Firebase Storage
+- [x] Firebase Cloud Messaging
+- [ ] Firebase Analytics
+- [ ] Firebase Crashlytics
+- [ ] Firebase Performance Monitoring
+- [ ] Firebase Test Lab
+- [ ] Firebase App Distribution
+- [ ] Firebase In-App Messaging
+- [ ]
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Android Studio](https://developer.android.com/studio)
+<!-- lol i don't have macos  -->
+<!-- I will add by me a coffee part -->
+- [Xcode](https://developer.apple.com/xcode/) (MacOS only)
+- [Firebase](https://firebase.google.com/)
 
-A few resources to get you started if this is your first Flutter project:
+- [Git](https://git-scm.com/downloads)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Dependencies
+  cupertino_icons
+  cloud_firestore
+  firebase_auth
+  firebase_core
+  firebase_messaging
+  firebase_storage
+  <!-- TODO: Not completed the set-up part ok -->
+  flutter_notification_channel 
+
+  image_picker
+  flutter_lints
