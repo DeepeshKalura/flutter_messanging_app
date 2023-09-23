@@ -29,8 +29,10 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  cached_network_image: ^3.2.3
   cloud_firestore: ^4.3.1
   cupertino_icons: ^1.0.2
+  emoji_picker_flutter: ^1.6.1
   firebase_auth: ^4.2.5
   firebase_core: ^2.4.1
   firebase_messaging: ^14.2.1
@@ -38,6 +40,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_notification_channel: ^2.0.0
+  gallery_saver: ^2.3.2
+  google_sign_in: ^6.1.5
+  http: ^0.13.6
   image_picker: ^0.8.6+1
 
 dev_dependencies:
@@ -81,4 +86,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
