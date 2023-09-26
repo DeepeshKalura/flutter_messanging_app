@@ -82,3 +82,7 @@ flutter run
 2. Bottom Navigation Bar
 3. AnimatedPositioned
 4. 
+
+
+## Added New Dependencies
+1. connectivity_plus
