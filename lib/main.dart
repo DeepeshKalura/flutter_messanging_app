@@ -1,18 +1,19 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+// import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_notification_channel/flutter_notification_channel.dart';
 import 'package:flutter_notification_channel/notification_importance.dart';
 import 'package:flutter/services.dart';
 
+import 'controller/route/routes_controller.dart';
+import 'controller/route/routes_name_controller.dart';
 import 'firebase_options.dart';
 
-import './screen/chat_screen.dart';
-import 'screen/auth_screen.dart';
-import 'screen/splash_screen.dart';
-import 'view/screen/new_login_screen.dart';
+// import './screen/chat_screen.dart';
+// import 'screen/auth_screen.dart';
+// import 'screen/splash_screen.dart';
 
 late Size globalAppSize;
 Future<void> main() async {
@@ -55,7 +56,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
-      home: const NewLoginScreen(),
+      onGenerateRoute: RoutesController.onGenerateRoute,
+      initialRoute: RoutesNameController.register,
     );
   }
 }
